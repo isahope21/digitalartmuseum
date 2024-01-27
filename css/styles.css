@@ -1,0 +1,48 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 20px;
+    padding: 0;
+}
+
+header {
+    font-family: 'Single Day', cursive;
+    background-color: #D4874A;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+nav {
+    background-color: #DBA71A;
+    padding: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+article {
+    margin-top: 20px;
+}
+
+footer {
+    font-family: 'Single Day', cursive;
+    text-align: center;
+    padding: 10px;
+    background-color: #DBA71A;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
