@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>a poem by molly stilling</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <!-- In the head section of your HTML file -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Single+Day&display=swap">
+</head>
+<body>
+    <header>
+        <h1>digital art museum</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">all posts</a>
+        <a href="gettoknowus.html">get to know the creators</a>
+        <a href="contact.html">let's collab</a>
+        <a href="poems.html">poems</a>
+        <a href="photos.html">photos</a>
+    </nav>
+
+    <div class="container">
+        <article>
+            <h4>a poem written by: molly stilling</h4>
+            <p><em>published on january 28, 2024</em></p>
+        
+            <p>
+
+                In a sea of sweaty bodies<br>
+                Intoxicated and free,<br>
+                She stands adjacent with Her drink,<br>
+                And She looks up at me<br>
+                <br>
+                I see Her curled lashes<br>
+                Peering at me from above,<br>
+                She blushes, Her eyes widen<br>
+                Reminiscent of a dove<br><br>
+                
+                I ask Her what's so funny, <br>
+                My hands are in my hair, <br>
+                Our hips move everywhere, <br>
+                Her giggles stop, She takes a breath <br><br>
+                "Nothing, you're just perfect"<br><br>
+                There is no way She can understand <br>
+                What that has done to me. <br>
+                I want to grab Her by the neck<br>
+                And kiss Her senselessly <br>
+                <br>
+                But Her boyfriend in in the corner,<br>
+                And I'm reminded, this cannot be.<br><br>
+                So now I sit to write,<br>
+                About what will not leave my mind.<br>
+                Her gaze and words will haunt me,<br>
+                For a love I cannot find.<br><br>
+
+                </p>
+                <br>
+                <br>
+        </article>
+    </div>
+
+    <footer>
+        &copy; 2024 digital art museum. all rights reserved.
+    </footer>
+</body>
+</html>
