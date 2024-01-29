@@ -107,6 +107,6 @@ nav a:active {
     max-width: 100%;
     margin: auto;
     height:auto;
-    width:auto;
+    width:100px;
     margin-bottom: 200px;
 }
