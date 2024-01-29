@@ -103,5 +103,10 @@ nav a:active {
 }
 
 .article img {
-    width: auto; /* Make the image responsive */
+    margin-top: 20px;
+    max-width: 800px;
+    margin: auto;
+    height:auto;
+    width:auto;
+    margin-bottom: 200px;
 }
