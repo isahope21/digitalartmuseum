@@ -12,25 +12,29 @@ header {
     color: white;
     text-align: center;
     padding: 10px;
+    width:auto;
 }
 
 nav {
     background-color: #DBA71A;
     padding: 10px;
+    width:auto;
 }
 
 nav a {
     color: #fff;
     text-decoration: none;
     padding: 10px;
+    width:auto;
 }
 
 .container {
     margin-top: 20px;
     max-width: 800px;
     margin: auto;
+    height:auto;
+    width:auto;
     margin-bottom: 200px;
-    padding: 0 20px; /* Add padding to the container */
 }
 
 article {
@@ -38,7 +42,10 @@ article {
     border-radius: 20px;
     border-color: #D4874A;
     border-style: solid;
-    padding: 20px; /* Add padding to the article */
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0 px;
+    padding-bottom: 20px;
 }
 
 footer {
@@ -54,6 +61,7 @@ footer {
 
 nav {
     text-align: center;
+    margin-top: 0px;
 }
 
 nav a {
@@ -74,8 +82,30 @@ nav a:active {
     color: #fff;
 }
 
+.bio {
+    margin-top: 20px;
+    border-radius: 20px;
+    border-color: #D4874A;
+    background-color: #DBC426;
+    border-style: solid;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0 px;
+    padding-bottom: 20px;
+}
+
+.circular-image {
+    border-radius: 50%;
+    width: 100%; /* Make the image responsive */
+    max-width: 200px; /* Set the maximum width */
+    height: auto; /* Maintain the aspect ratio */
+}
+
 .article img {
-    width: 100%;
+    width: auto; /* Make the image responsive */
+    max-width: 200px; /* Set the maximum width */
+    height: auto; /* Maintain the aspect ratio */
     max-width: 100%; /* Ensure the image stays within its container */
-    height: auto;
+    border-radius: 0; /* Remove any existing border-radius (optional) */
 }
