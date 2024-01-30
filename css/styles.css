@@ -95,9 +95,9 @@ nav a:active {
     margin-top:20px;
     padding-top:20px;
     padding-left: 5%;
-    max-width: 60%;
-    margin-right: 20%;
-    margin-left:20%;
+    max-width: fit-content;
+    margin-right: 10%;
+    margin-left:10%;
     padding-right:5%;
     padding-bottom: 20px;
 }
