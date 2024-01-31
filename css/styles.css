@@ -1,11 +1,10 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #DBC357;
-    color:#D4874A;
+    color: #D4874A;
     margin: 20px;
     padding: 0;
-    font-size:medium;
-
+    font-size: medium;
 }
 
 header {
@@ -14,27 +13,23 @@ header {
     color: white;
     text-align: center;
     padding: 10px;
-    width:auto;
 }
 
 nav {
     padding: 10px;
-    width:auto;
-    color:#D4874A;
+    text-align: center;
 }
 
 nav a {
-    color:#D4874A;;
+    color: #D4874A;
     text-decoration: none;
     padding: 10px;
-    width:auto;
+    display: inline-block; /* Align nav links horizontally on smaller screens */
 }
 
 .container {
     margin-top: 20px;
-    max-width:fit-content;
-    margin: auto;
-    width:auto;
+    max-width: 100%; /* Take up full width on smaller screens */
     text-align: left;
     margin-bottom: 200px;
 }
@@ -45,10 +40,7 @@ article {
     background-color: white;
     border-color: #DBC357;
     border-style: solid;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 0 px;
-    padding-bottom: 20px;
+    padding: 20px;
     text-align: center;
 }
 
@@ -56,61 +48,35 @@ footer {
     font-family: 'Single Day', cursive;
     text-align: center;
     padding: 10px;
-    background-color:#DBC357;
+    background-color: #DBC357;
     color: #fff;
     position: fixed;
     bottom: 0;
     width: 100%;
 }
 
-nav {
-    text-align: center;
-    margin-top: 0px;
-}
-
-nav a {
-    color: #fff;
-    padding: 10px;
-    margin: 0 10px;
-    border-radius: 5px;
-    transition: background-color 0.3s, color 0.3s;
-}
-
-nav a:hover {
+nav a:hover,
+nav a:active {
     background-color: #df68c5;
     color: #fff;
 }
 
-nav a:active {
-    background-color: hotpink;
-    color: #fff;
-}
-
 .bio {
-    
     border-radius: 20px;
     border-color: #D4874A;
-    background-color:white;
+    background-color: white;
     border-style: solid;
-    margin-top:20px;
-    padding-top:20px;
-    padding-left: 5%;
-    max-width: fit-content;
-    margin-right: 10%;
-    margin-left:10%;
-    padding-right:5%;
-    padding-bottom: 20px;
+    margin-top: 20px;
+    padding: 20px;
+    max-width: 100%;
 }
 
 .circular-image {
     border-radius: 50%;
-    width: 100%; /* Make the image responsive */
-    max-width: 200px; /* Set the maximum width */
+    max-width: 100%; /* Make the image responsive */
     height: auto; /* Maintain the aspect ratio */
 }
 
-
-
-h2{
+h2 {
     text-align: center;
 }
