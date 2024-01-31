@@ -21,6 +21,7 @@ nav {
 }
 
 nav a {
+    border-radius:20px;
     background-color: #fff;
     color: #D4874A;
     text-decoration: none;
