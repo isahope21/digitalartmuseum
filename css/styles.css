@@ -21,6 +21,7 @@ nav {
 }
 
 nav a {
+    background-color: #fff;
     color: #D4874A;
     text-decoration: none;
     padding: 10px;
